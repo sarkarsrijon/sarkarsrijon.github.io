@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://srijon-sarkar.github.io/sitemap.xml
+Sitemap: https://sarkarsrijon.github.io/sitemap.xml

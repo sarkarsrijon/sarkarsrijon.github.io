@@ -33,5 +33,5 @@ Some old and classic ones, but I couldn't help but restate how fruitful they are
 
 <details>
   <summary> <strong>Getting/finding great mentors</strong> </summary>
-  Having great teachers and seniors can help avoid many potholes and make tasks much easier. This can be especially useful when facing complex problems and situations and trying to avoid overthinking. Personally, it took me several years of trial and error before I found my mentors. However, you might be able to find yours by reaching out through your network or mutual connections. Importantly, if you establish a warm rapport with your mentors, they can really incubate you with invaluable guidance and instrumental support.
+  Having great teachers and seniors can help avoid many pitfalls and make tasks much easier. This can be especially useful when facing complex problems and situations and trying to avoid overthinking. Personally, it took me several years of trial and error before I found my mentors. However, you might be able to find yours by reaching out through your network or mutual connections. Importantly, if you establish a warm rapport with your mentors, they can really incubate you with invaluable guidance and instrumental support.
 </details>

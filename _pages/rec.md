@@ -28,7 +28,7 @@ Some old and classic ones, but I couldn't help but restate how fruitful they are
 
 <details>
   <summary> <strong>Cold emails</strong> </summary>
-  The old adage goes, "If you don't ask, it's anyway a NO." Simply reaching out and sending an email or message can lead to opportunities beyond our wildest imaginations that we can’t fathom. I followed <a href='https://www.linkedin.com/pulse/three-emails-got-me-10-minutes-gary-vaynerchuk-zach-dixon/'>this</a> approach and received responses from individuals and organizations that provided unimaginable help with my needs and in achieving my aspirations. So, don't hesitate—just send that message!
+  The old adage goes, "If you don't ask, it is anyway a NO." Simply reaching out and sending an email or message can lead to opportunities beyond our wildest imaginations that we can’t fathom. I followed <a href='https://www.linkedin.com/pulse/three-emails-got-me-10-minutes-gary-vaynerchuk-zach-dixon/'>this</a> approach and received responses from individuals and organizations that provided unimaginable help with my needs and in achieving my aspirations. So, don't hesitate—just send that message!
 </details>
 
 <details>

@@ -16,9 +16,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am 19 years old and am from Kolkata. Currently in a gap year before starting undergrad.
+I am 19 years old and am from Kolkata. Eager about bioengineering and startups, I'm exploring Oncology from a mathematical perspective.
 
-Exploring Oncology from a mathematical perspective and traveling to explore various communities. 
+I took a gap year before undergrad and traveled to explore various communities. I would major in Applied Mathematics and Statistics at Emory University starting this fall.
 
 <strong>Affiliations</strong>: Emergent Ventures India, Effective Altruism, [Spirit of Ramanujan Fellowship](https://www.templetonworldcharity.org/blog/finding-todays-ramanujans-spirit-ramanujan-stem-talent-initiative), SPARC (Berkeley 2022), Monsoon Math, Yale YGS, etc.
 

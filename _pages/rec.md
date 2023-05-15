@@ -21,6 +21,7 @@ nav: true
 
 Some old and classic ones, but I couldn't help but restate how fruitful they are.
 
+<ul>
 <details>
   <summary> <strong>Self-studying</strong> </summary>
   It teaches one a lot more than just the syllabus. You get to realize and learn a lot about your learning style and capabilities. Further, I've seen it instilling agency and accountability in me, which later translated into taking responsibility for other important things early on e.g. managing my own finances and forms for international grant transfers. Also, you happen to develop the eagerness to independently delve into any subject, paper, or skill that you wish to learn whenever you like!
@@ -35,6 +36,7 @@ Some old and classic ones, but I couldn't help but restate how fruitful they are
   <summary> <strong>Getting/finding great mentors</strong> </summary>
   Having great teachers and seniors can help avoid many pitfalls and make tasks much easier. This can be especially useful when facing complex problems and situations and trying to avoid overthinking. Personally, it took me several years of trial and error before I found my mentors. However, you might be able to find yours by reaching out through your network or mutual connections. Importantly, if you establish a warm rapport with your mentors, they can really incubate you with invaluable guidance and instrumental support.
 </details>
+</ul>
 
 #### Compiled an opportunities doc
 

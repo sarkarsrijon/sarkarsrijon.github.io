@@ -13,9 +13,8 @@ Please feel free to reach out if you want to discuss any of the following or jus
 
 <ul>
 <details>
-  <summary> Compiling an opportunities doc </summary>
-On the last day of <a href='https://www.warp.camp/'>WARP23</a>, we all were asked to pick up a task and try to accomplish it. It was called Quest Day! I wanted to empty my bookmark dump from the past 3-4 years, where I had saved tons of pages that I found useful or interesting throughout high school. I completed collating whatever I had there into this <strong>scholarships and opportunities doc</strong>. Now, roughly shaping, editing, and indexing it to make it publicly presentable.
-</details>  
+  <summary> Invested with Emory forms as an incoming freshman and also Visa documentation </summary>
+</details>
   
 <details>
   <summary> Mathematical Oncology </summary>

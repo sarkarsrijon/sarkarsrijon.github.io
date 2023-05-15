@@ -35,3 +35,7 @@ Some old and classic ones, but I couldn't help but restate how fruitful they are
   <summary> <strong>Getting/finding great mentors</strong> </summary>
   Having great teachers and seniors can help avoid many pitfalls and make tasks much easier. This can be especially useful when facing complex problems and situations and trying to avoid overthinking. Personally, it took me several years of trial and error before I found my mentors. However, you might be able to find yours by reaching out through your network or mutual connections. Importantly, if you establish a warm rapport with your mentors, they can really incubate you with invaluable guidance and instrumental support.
 </details>
+
+#### Compiled an opportunities doc
+
+On the last day of <a href='https://www.warp.camp/'>WARP23</a>, we all were asked to pick up a task and try to accomplish it. It was called Quest Day! I wanted to empty my bookmark dump from the past 3-4 years, where I had saved tons of pages that I found useful or interesting throughout high school. I completed collating whatever I had there into <a href="https://docs.google.com/document/d/16SJkXBbbpzvCPfM7jK_hHfcql9m3eTsmlibzCeNM6YQ/edit?usp=sharing"><strong>this</strong></a>  scholarships and opportunities doc. Please feel free to share further.

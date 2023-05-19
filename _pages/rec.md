@@ -3,7 +3,7 @@ layout: page
 permalink: /recommendations/
 title: recommendations
 description: 
-nav_order: 8
+nav_order: 6
 nav: true
 ---
 
@@ -38,6 +38,6 @@ Some old and classic ones, but I couldn't help but restate how fruitful they are
 </details>
 </ul>
 
-#### Compiled an opportunities doc
+#### Opportunities compilation
 
 On the last day of <a href='https://www.warp.camp/'>WARP23</a>, we all were asked to pick up a task and try to accomplish it. It was called Quest Day! I wanted to empty my bookmark dump from the past 3-4 years, where I had saved tons of pages that I found useful or interesting throughout high school. I completed collating whatever I had there into <b><a href="https://docs.google.com/document/d/16SJkXBbbpzvCPfM7jK_hHfcql9m3eTsmlibzCeNM6YQ/edit?usp=sharing">this</a></b> scholarships and opportunities doc. Please feel free to share further.

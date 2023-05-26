@@ -9,7 +9,7 @@ nav: true
 
 #### Current engagements
 
-Please feel free to reach out if you want to discuss any of the following or just something in general. You can book a slot [here](https://calendly.com/srijonrick/1-on-1-with-srijon).
+Please feel free to reach out if you want to discuss any of the following or just something in general.
 
 <ul>
 <details>

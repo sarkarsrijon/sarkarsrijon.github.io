@@ -23,7 +23,7 @@ Cancer systems, Longevity, Augmented animals, Neuro, etc.
 </details>
   
 <details>
-  <summary> Consulations </summary>
+  <summary> Consultations </summary>
 Lately, I've been having some really interesting conversations! Specifically, I've been chatting with people and organizations about supporting early career researchers, fostering math communities, and exploring <a href='https://twitter.com/srijonrick/status/1643713147583471616?s=20'>gap year experiences</a>. In the past, I've had the pleasure of collaborating with organizations such as the AI Alignment Awards (formerly The Turing Prize), Emergent Ventures India, Scaler, Effective Thesis, and others on these topics. I've also been mentoring students on article publication and the Spirit of Ramanujan Fellowship, which has been a lot of fun.
 </details>
 </ul>

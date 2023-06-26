@@ -32,12 +32,12 @@ Lately, I've been having some really interesting conversations! Specifically, I'
 I enjoy each of them but engaged in very few at a time.
 
 <ul>
-<li>Trekking. Mostly pilgrimages in India such as Kedarnath, Tirupati, and Vaishno Devi, besides a few like Berkeley Panoramic hill hike.</li>
+<li>Trekking. Mostly pilgrimages in India such as Kedarnath, Tirupati, and Vaishno Devi, besides a few like the Berkeley Panoramic hill hike.</li>
 <li> Films in the form of reflective and introspective storytelling journeys, such as those of <a href='https://www.youtube.com/@nataliexlynn'>Natalie Lynn</a>, <a href='https://www.youtube.com/@RyanNgFilms'>Ryan Ng</a>, et al. </li>
 <li>Hardware and electrical engineering (want to devote more time towards this)</li>
 <li>My journaling and writings </li>
 <li>Gym and football (soccer) </li>
-<li>Drawing, particularly water color and pencil shading</li>
+<li>Drawing, particularly watercolor and pencil shading</li>
 </ul>
 
 #### Ideas that intrigue me 

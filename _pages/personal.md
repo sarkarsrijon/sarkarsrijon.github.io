@@ -19,7 +19,7 @@ Please feel free to reach out if you want to discuss any of the following or jus
   
 <details>
   <summary> Exploring different facets of Biology. </summary>
-Cancer systems, Longevity, Augmented animals, etc.
+Cancer systems, Longevity, Augmented animals, Neuro, etc.
 </details>
   
 <details>

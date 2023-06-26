@@ -13,12 +13,13 @@ Please feel free to reach out if you want to discuss any of the following or jus
 
 <ul>
 <details>
-  <summary> Invested with Emory forms as an incoming freshman and also Visa documentation </summary>
+  <summary> Almost done with Emory forms & documentations as an incoming freshman. (Got my Visa!) </summary>
+  Handling numerous miscellaneous tasks and getting back to studying. 
 </details>
   
 <details>
-  <summary> Mathematical Oncology </summary>
-Learning about Epithelial/Mesenchymal Plasticity (EMP) networks under Dr. Mohit Jolly at Cancer Systems Biology Lab, IISc Bangalore.
+  <summary> Exploring different facets of Biology. Please let me know if you're aware of any Biotech or Neuro opportunities. </summary>
+Cancer systems, Longevity, Augmented animals, etc.
 </details>
   
 <details>

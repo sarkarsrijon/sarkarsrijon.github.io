@@ -18,7 +18,7 @@ Please feel free to reach out if you want to discuss any of the following or jus
 </details>
   
 <details>
-  <summary> Exploring different facets of Biology. Please let me know if you're aware of any Biotech or Neuro opportunities. </summary>
+  <summary> Exploring different facets of Biology. </summary>
 Cancer systems, Longevity, Augmented animals, etc.
 </details>
   

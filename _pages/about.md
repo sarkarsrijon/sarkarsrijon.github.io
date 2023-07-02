@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://srijonsarkar.substack.com/'>I've a Substack now! My first post is out! </a>
+subtitle: <a href='https://srijonsarkar.substack.com/'>My Gap Year post is out now! </a>
 
 profile:
   align: right

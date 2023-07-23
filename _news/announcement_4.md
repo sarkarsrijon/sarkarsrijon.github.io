@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Came back from Emory Scholars Finalist Week.
+Back from the Emory Scholars Finalist Week.

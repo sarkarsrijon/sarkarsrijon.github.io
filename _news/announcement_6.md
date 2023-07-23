@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Would be at the Emergent Ventures India 2023 Unconference in Chennai.
+Would be at the Emergent Ventures India Unconference in Chennai.

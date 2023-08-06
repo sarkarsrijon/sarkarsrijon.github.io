@@ -18,8 +18,8 @@ social: true  # includes social icons at the bottom of the page
 
 I am 19 years old and am from Kolkata. Eager about bioengineering and startups, I'm exploring Oncology from a mathematical perspective.
 
-I took a gap year before undergrad and traveled to explore various communities. I would major in Mathematics with Computer Science or Statistics at Emory University starting this fall.
+I took a gap year before undergrad and traveled to explore various communities. I would major in Mathematics with Computer Science or Biophysics at Emory University starting Fall 2023.
 
-<strong>Affiliations</strong>: Emergent Ventures India, Effective Altruism, [Spirit of Ramanujan Fellowship](https://www.templetonworldcharity.org/blog/finding-todays-ramanujans-spirit-ramanujan-stem-talent-initiative), SPARC (Berkeley 2022), Monsoon Math, Yale YGS, etc.
+<strong>Affiliations</strong>: [Emergent Ventures India](https://marginalrevolution.com/marginalrevolution/2023/08/emergent-ventures-india-cohort-five.html), Effective Altruism, [Spirit of Ramanujan Fellowship](https://www.templetonworldcharity.org/blog/finding-todays-ramanujans-spirit-ramanujan-stem-talent-initiative), SPARC (Berkeley 2022), Monsoon Math, Yale YGS, etc.
 
 Previously, I did mathematical olympiads in India, and [this](https://srijonsarkar.wordpress.com) was my old blog with content around it.

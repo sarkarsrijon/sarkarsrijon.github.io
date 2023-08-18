@@ -11,11 +11,12 @@ nav: true
 
 Please feel free to reach out if you want to discuss any of the following or just something in general.
 
-<ul>
+<ul>  
 <details>
-  <summary> Almost done with Emory forms & documentations as an incoming freshman. (Got my Visa!) </summary>
-  Handling numerous miscellaneous tasks and getting back to studying. 
+  <summary> College </summary>
+Linear Algebra, Microecon, Physics lab, and some orientation courses!
 </details>
+
   
 <details>
   <summary> Exploring different facets of Biology. </summary>

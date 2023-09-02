@@ -14,7 +14,7 @@ Please feel free to reach out if you want to discuss any of the following or jus
 <ul>  
 <details>
   <summary> College </summary>
-Linear Algebra, Microecon, Physics lab, and some orientation courses!
+Honors Linear Algebra, Differential Equations, Microeconomics, Physics Lab (classical mechanics and thermodynamics), Digital Creative Writing, and 2 orientation courses!
 </details>
 
   

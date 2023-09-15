@@ -14,11 +14,11 @@ Please feel free to reach out if you want to discuss any of the following or jus
 <ul>  
 <details>
   <summary> College </summary>
-Honors Linear Algebra, Differential Equations, Microeconomics, Physics Lab (classical mechanics and thermodynamics), Digital Creative Writing, and two orientation courses!
-  
-  <br> Further, involved with three organizations cum clubs on campus and pursuing my Cancer Biology research under a Doctor here :)
-  
-  <br> Also, finally taking Qubit by Qubit's Quantum Computing course!
+  <ul>
+    <li>Honors Linear Algebra, Differential Equations, Microeconomics, Physics Lab (classical mechanics and thermodynamics), Digital Creative Writing, and two orientation courses!</li>
+    <li>Further, involved with three organizations cum clubs on campus and pursuing my Cancer Biology research under a Doctor here :)</li>
+    <li>Also, finally taking Qubit by Qubit's Quantum Computing course!</li>
+  </ul>
 </details>
 
   

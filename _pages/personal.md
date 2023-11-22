@@ -37,7 +37,7 @@ I enjoy each of them but engaged in very few at a time.
 
 <ul>
 <li>Trekking. Mostly pilgrimages in India such as Kedarnath, Tirupati, and Vaishno Devi, besides a few hikes within States like the Berkeley Panoramic Hill one and East Palisades Bamboo Trail in Atlanta.</li>
-<li> Films in the form of reflective and introspective storytelling journeys, such as those of <a href='https://www.youtube.com/@nataliexlynn'>Natalie Lynn</a>, <a href='https://www.youtube.com/@RyanNgFilms'>Ryan Ng</a>, et al. </li>
+<li> Films in the form of reflective and introspective storytelling journeys, such as by <a href='https://www.youtube.com/@nataliexlynn'>Natalie Lynn</a> & <a href='https://www.youtube.com/@RyanNgFilms'>Ryan Ng</a>.</li>
 <li>Hardware and electrical engineering (want to devote more time towards this)</li>
 <li>My journaling and writings </li>
 <li> Martial arts such as BJJ and Muay Thai (shifted from gym and soccer) </li>

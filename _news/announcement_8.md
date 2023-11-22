@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started research on VIP-R antagonist structure under Waller Lab at Winship Cancer Institute of Emory!
+Started VIP-R antagonist structure research under Waller Lab at Winship Cancer Institute of Emory!

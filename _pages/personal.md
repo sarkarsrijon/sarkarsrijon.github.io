@@ -15,9 +15,8 @@ Please feel free to reach out if you want to discuss any of the following or jus
 <details>
   <summary> College </summary>
   <ul>
-    <li>Honors Linear Algebra, Differential Equations, Microeconomics, Physics Lab (classical mechanics and thermodynamics), Digital Creative Writing, and two orientation courses.</li>
-    <li>Also, involved with two cultural clubs and two martial arts clubs (Brazilian Jiu-Jitsu and Muay Thai) and pursuing my Cancer Biology research under a Doctor here :)</li>
-    <li>And finally, taking Qubit by Qubit's Quantum Computing course.</li>
+    <li>Abstract linear algebra, differential equations, microeconomics, Physics lab (classical mechanics and thermodynamics), digital creative writing (this class actually gave me the chance to write on a lot of things that I always wanted to write about). </li>
+    <li>Alongside, a few clubs such as the Indian Cultural Association and Club Brazilian Jiu-Jitsu, pursuing my protein modeling research, prepping for Putnam, and finally, taking Qubit by Qubit's quantum computing course.</li>
   </ul>
 </details>
 
@@ -37,11 +36,11 @@ Lately, I've been having some really interesting conversations! Specifically, I'
 I enjoy each of them but engaged in very few at a time.
 
 <ul>
-<li>Trekking. Mostly pilgrimages in India such as Kedarnath, Tirupati, and Vaishno Devi, besides a few like the Berkeley Panoramic hill hike.</li>
+<li>Trekking. Mostly pilgrimages in India such as Kedarnath, Tirupati, and Vaishno Devi, besides a few hikes within States like the Berkeley Panoramic Hill one and East Palisades Bamboo Trail in Atlanta.</li>
 <li> Films in the form of reflective and introspective storytelling journeys, such as those of <a href='https://www.youtube.com/@nataliexlynn'>Natalie Lynn</a>, <a href='https://www.youtube.com/@RyanNgFilms'>Ryan Ng</a>, et al. </li>
 <li>Hardware and electrical engineering (want to devote more time towards this)</li>
 <li>My journaling and writings </li>
-<li>Gym and football (soccer) </li>
+<li> Martial arts such as BJJ and Muay Thai (shifted from gym and soccer) </li>
 <li>Drawing, particularly watercolor and pencil shading</li>
 </ul>
 

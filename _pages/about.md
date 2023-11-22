@@ -16,9 +16,9 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am 19 years old and am from Kolkata. Eager about bioengineering and startups, I'm exploring Oncology from a mathematical perspective.
+Originally from Kolkata India, I started at Emory University fall of 2023, and I'm planning to major in Mathematics with Computer Science or Economics.
 
-I took a gap year before undergrad and traveled to explore various communities. I would major in Mathematics with Computer Science or Biophysics at Emory University starting Fall 2023.
+I took a gap year before undergrad and traveled to explore various communities. Eager about bioengineering and startups, I'm exploring Oncology from a mathematical perspective.
 
 <strong>Affiliations</strong>: [Emergent Ventures India](https://marginalrevolution.com/marginalrevolution/2023/08/emergent-ventures-india-cohort-five.html), Effective Altruism, [Spirit of Ramanujan Fellowship](https://www.templetonworldcharity.org/blog/finding-todays-ramanujans-spirit-ramanujan-stem-talent-initiative), SPARC (Berkeley 2022), Monsoon Math, Yale YGS, etc.
 

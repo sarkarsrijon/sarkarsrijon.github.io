@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2023-09-30
+date: 2023-09-12
 inline: true
 related_posts: false
 ---
 
-Went for my first retreat in the States, at Fort Payne, Alabama, and did some cliff diving at Little River Canyon.
+Started research on VIP-R antagonist design under Waller Lab at Winship Cancer Institute of Emory!

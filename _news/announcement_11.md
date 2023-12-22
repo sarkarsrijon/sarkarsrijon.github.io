@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Wrap of first semester at Emory.
+Wrap of the first semester at Emory.

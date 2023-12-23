@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://srijonsarkar.substack.com/'>My Gap Year post is out now! </a>
+subtitle: Microblogging at <a href='https://twitter.com/srijonrick'> Twitter and seasonal writing at <a href='https://srijonsarkar.substack.com/'>Substack</a>.
 
 profile:
   align: right

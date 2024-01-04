@@ -25,7 +25,7 @@ Lately, I've been having some really interesting conversations! Specifically, I'
 I enjoy each of them but engaged in very few at a time.
 
 <ul>
-<li>Trekking. Mostly through pilgrimages in India, but did two in the States yet, one at Berkeley and one in Atlanta.</li>
+<li>Trekking & Hiking. Mostly did pilgrimages in India, and two in the States yet, at Berkeley and Atlanta.</li>
 <li>Films in the form of reflective and introspective storytelling journeys, such as by <a href='https://www.youtube.com/@nataliexlynn'>Natalie Lynn</a> & <a href='https://www.youtube.com/@RyanNgFilms'>Ryan Ng</a>.</li>
 <li>Journaling and my <a href='https://srijonsarkar.substack.com/'>writings</a> </li>
 <li>MMA such as Brazilian Jiu-Jitsu and Muay Thai </li>

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-The second [Winter Applied Rationality Camp](https://warp.camp) concluded in Austin. It was awesome!
+The second [Winter Applied Rationality Camp](https://warp.camp) concluded in Austin. The Best.

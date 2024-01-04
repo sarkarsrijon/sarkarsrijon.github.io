@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Presented and performed in front of an audience of 800 people for the first time for Emory Diwali!
+Danced and presented in front of an 800-people crowd for the first time at Emory Diwali!

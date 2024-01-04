@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Emergent Ventures India Unconference in Chennai.
+Wrap of my gap year with Emergent Ventures India Unconference in Chennai.

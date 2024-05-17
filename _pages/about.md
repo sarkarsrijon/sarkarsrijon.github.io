@@ -20,6 +20,8 @@ Originally from Kolkata India, I started at Emory University fall of 2023, and I
 
 I took a gap year before undergrad and traveled to explore various communities. Eager about bioengineering and startups, I'm exploring Oncology from a mathematical perspective.
 
-<strong>Affiliations</strong>: [Emergent Ventures India](https://marginalrevolution.com/marginalrevolution/2023/08/emergent-ventures-india-cohort-five.html), Effective Altruism, [Spirit of Ramanujan Fellowship](https://www.templetonworldcharity.org/blog/finding-todays-ramanujans-spirit-ramanujan-stem-talent-initiative), SPARC (Berkeley 2022), Monsoon Math, Yale YGS.
+I'm grateful to be a part of various communities such as [Emergent Ventures](https://marginalrevolution.com/marginalrevolution/2023/08/emergent-ventures-india-cohort-five.html), Effective Altruism, [Spirit of Ramanujan Fellowship](https://www.templetonworldcharity.org/blog/finding-todays-ramanujans-spirit-ramanujan-stem-talent-initiative), SPARC (Berkeley 2022), Monsoon Math, and Yale YGS, among others.
 
 Previously, I did mathematical olympiads in India, and [this](https://srijonsarkar.wordpress.com) was my old blog with content around it.
+
+Lastly, I very much appreciate movements (dancing & grappling), movies (cinematic & biographic), and memories (experiences & lores).

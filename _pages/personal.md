@@ -4,7 +4,7 @@ permalink: /personal/
 title: personal
 description: more about me.
 nav_order: 8
-nav: true
+nav: false
 ---
 
 #### Main engagements

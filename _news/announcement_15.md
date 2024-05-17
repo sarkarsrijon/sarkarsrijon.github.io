@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Got my first award at Emory, The Putnam Prize.
+Got my first award at Emory, The Putnam Prize!

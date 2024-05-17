@@ -16,7 +16,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Originally from Kolkata India, I started at Emory University fall of 2023, and I'm planning to major in Math with Computer Science or Biophysics.
+Originally from Kolkata India, I started at Emory University fall of 2023, and I'm planning to major in Math with Quantum Information or Biophysics.
 
 I took a gap year before undergrad and traveled to explore various communities. Eager about bioengineering and startups, I'm exploring Oncology from a mathematical perspective.
 

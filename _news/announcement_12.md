@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Went to Winter SPARC in Boston.
+Went to Winter [SPARC](https://www.sparc.camp/) in Boston.

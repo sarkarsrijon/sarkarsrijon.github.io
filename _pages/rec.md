@@ -7,7 +7,7 @@ nav_order: 6
 nav: true
 ---
 
-#### Some pieces that more or less got imprinted in my mind 
+#### some great ones 
 
 <ul>
   <li> <a href='https://autotranslucence.wordpress.com/2018/03/30/becoming-a-magician/'>Becoming a magician | Autotranslucence</a> </li>

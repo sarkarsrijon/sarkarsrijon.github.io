@@ -18,7 +18,7 @@ social: true  # includes social icons at the bottom of the page
 
 Originally from Kolkata India, I started at Emory University fall of 2023, and I'm planning to major in Math with Quantum Information or Biophysics.
 
-I took a gap year before undergrad and traveled to explore various communities. Eager about bioengineering and startups, I'm exploring Oncology from a mathematical perspective.
+I took a gap year before undergrad and traveled to explore various communities. Eager about bioengineering and startups, I'm exploring protein design and oncology from a mathematical perspective.
 
 I'm grateful to be a part of various communities such as [Emergent Ventures](https://marginalrevolution.com/marginalrevolution/2023/08/emergent-ventures-india-cohort-five.html), Effective Altruism, [Spirit of Ramanujan Fellowship](https://www.templetonworldcharity.org/blog/finding-todays-ramanujans-spirit-ramanujan-stem-talent-initiative), SPARC (Berkeley 2022), Monsoon Math, and Yale YGS, among others.
 

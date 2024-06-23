@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-At Berkeley for the [Global Challenges Project](https://www.globalchallengesproject.org/) May workshop.
+Started summer research at the Math Department of Emory, and continuing protein design at Winship.

@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Pulled up to my first BJJ competition after borderline allergy and fever and stomach aches.
+Got my first award at Emory, The Putnam Prize!

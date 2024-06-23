@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2023-06-03
+date: 2024-01-26
 inline: true
 related_posts: false
 ---
 
-Started summer research at the Math Department of Emory, and continuing protein design at Winship.
+Went to Winter [SPARC](https://www.sparc.camp/) in Boston.

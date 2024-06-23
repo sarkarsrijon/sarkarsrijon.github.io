@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Wrap of my first year at Emory.
+At Berkeley for the [Global Challenges Project](https://www.globalchallengesproject.org/) May workshop.

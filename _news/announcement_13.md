@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Attended the EV Unconference in DC.
+Pulled up to my first BJJ competition after borderline allergy and fever and stomach aches.

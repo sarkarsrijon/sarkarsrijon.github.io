@@ -16,7 +16,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Originally from Kolkata India, I started at Emory University fall of 2023, and I'm planning to major in Math with Quantum Information or Biophysics.
+Originally from Kolkata India, I started at Emory University fall of 2023. Majoring in Applied Math and Statistics with a focus on Computational Biology, I also like anything Quantum - computing or chemistry.
 
 I took a gap year before undergrad and traveled to explore various communities. Eager about bioengineering and startups, I'm exploring protein design and oncology from a mathematical perspective.
 

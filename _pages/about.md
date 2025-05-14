@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: (<a href='https://srijonsarkar.substack.com/p/year-end-reflections'>new post!</a>) Microblogging at <a href='https://twitter.com/srijonrick'>Twitter</a> and seasonal writing at <a href='https://srijonsarkar.substack.com/'>Substack</a>.
+subtitle: Occasionally writing at <a href='https://srijonsarkar.substack.com/'>Substack</a> and microblogging at <a href='https://twitter.com/srijonrick'>Twitter</a>.
 
 profile:
   align: right

@@ -10,7 +10,6 @@ nav: true
 #### some great ones 
 
 <ul>
-  <li> <a href='https://nadia.xyz/climate-tribes'>Mapping out the tribes of climate | Nadia Asparouhova</a> </li>
   <li> <a href='https://youtu.be/iLSjasEa3pM'>Moving away from competition can get you to the top | Varun Mayya</a> </li>
   <li> <a href='https://www.lauragao.ca/essays/love-your-struggles'>Love Your Struggles | Laura Gao</a> </li>
   <li> <a href='https://www.youtube.com/watch?v=nI2VQ-ZsNr0'>The 5 Second Rule | Mel Robbins</a> </li>

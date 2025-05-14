@@ -6,7 +6,7 @@ subtitle: (<a href='https://srijonsarkar.substack.com/p/year-end-reflections'>ne
 
 profile:
   align: right
-  image: srijon_sarkar.jpg
+  image: 20250315_153702_v2.jpg
   image_circular: false # crops the image to make it circular
   address: >
     

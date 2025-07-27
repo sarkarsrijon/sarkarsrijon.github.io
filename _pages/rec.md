@@ -4,7 +4,7 @@ permalink: /recommendations/
 title: recommendations
 description: 
 nav_order: 6
-nav: true
+nav: false
 ---
 
 #### some great ones 

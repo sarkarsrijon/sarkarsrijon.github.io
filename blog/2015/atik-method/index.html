@@ -10,9 +10,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>a post with disqus comments | Srijon  Sarkar</title>
+    <title>a post with math | Srijon  Sarkar</title>
     <meta name="author" content="Srijon  Sarkar">
-    <meta name="description" content="an example of a blog post with disqus comments">
+    <meta name="description" content="an example of a blog post with some math">
     <meta name="keywords" content="jekyll, jekyll-theme, academic-website, portfolio-website">
 
 
@@ -33,7 +33,7 @@
     <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%E2%9A%9B%EF%B8%8F&lt;/text&gt;&lt;/svg&gt;">
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://sarkarsrijon.github.io/blog/2015/disqus-comments/">
+    <link rel="canonical" href="https://sarkarsrijon.github.io/blog/2015/atik-method/">
     
     <!-- Dark Mode -->
     
@@ -109,37 +109,213 @@
 <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">a post with disqus comments</h1>
+    <h1 class="post-title">a post with math</h1>
     <p class="post-meta">October 20, 2015</p>
     <p class="post-tags">
       <a href="/blog/2015"> <i class="fas fa-calendar fa-sm"></i> 2015 </a>
         ·  
+        <a href="/blog/tag/formatting">
+          <i class="fas fa-hashtag fa-sm"></i> formatting</a>  
+          <a href="/blog/tag/math">
+          <i class="fas fa-hashtag fa-sm"></i> math</a>  
+          
+        ·  
         <a href="/blog/category/sample-posts">
           <i class="fas fa-tag fa-sm"></i> sample-posts</a>  
-          <a href="/blog/category/external-services">
-          <i class="fas fa-tag fa-sm"></i> external-services</a>  
           
 
     </p>
   </header>
 
   <article class="post-content">
-    <p>This post shows how to add DISQUS comments.</p>
+    <h1 id="problem">Problem</h1>
 
-  </article><div id="disqus_thread" style="max-width: 800px; margin: 0 auto;">
-    <script type="text/javascript">
-        var disqus_shortname  = 'al-folio';
-        var disqus_identifier = '/blog/2015/disqus-comments';
-        var disqus_title      = "a post with disqus comments";
-        (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript" rel="external nofollow noopener" target="_blank">comments powered by Disqus.</a>
-</noscript>
-</div>
+<p>In</p>
+
+\[||A\mathbf{x} - \mathbf{b}||_2^2 + \lambda ||\mathbf{x}||_2^2\]
+
+<p>we want to choose $\lambda$ such that</p>
+
+\[||A\mathbf{x}_\lambda^{(k)} - \mathbf{b}|| = \tau\delta.\]
+
+<p>Incorporating (flexible) Arnoldi and using Newton’s method to solve for $\lambda$.</p>
+
+<h2 id="solution">Solution</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td>First, we consider the subspace reduction to get $</td>
+      <td> </td>
+      <td>A\mathbf{x} - \mathbf{b}</td>
+      <td> </td>
+      <td>_2^2$ reduced to $| H\mathbf{y} - V_p^T\mathbf{b} |_2^2$. Now, as we consider $x=V_p y$, and $V_p$ is orthogonal we get $</td>
+      <td> </td>
+      <td>\mathbf{x}</td>
+      <td> </td>
+      <td>_2^2 =</td>
+      <td> </td>
+      <td>V_p\mathbf{y}</td>
+      <td> </td>
+      <td>_2^2 =</td>
+      <td> </td>
+      <td>y</td>
+      <td> </td>
+      <td>^2_2$. Leading our problem to be</td>
+    </tr>
+  </tbody>
+</table>
+
+\[||H\mathbf{y} - ||\mathbf{b}||\mathbf{e}_1||_2^2 + \lambda ||\mathbf{y}||_2^2.\]
+
+<table>
+  <tbody>
+    <tr>
+      <td>Where $</td>
+      <td> </td>
+      <td>\mathbf{b}</td>
+      <td> </td>
+      <td>\mathbf{e}_1 = V_p^T \mathbf{b}$.</td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <tbody>
+    <tr>
+      <td>
+<strong>Lemma:</strong> Using the fact that closed form solution of $\underset{\mathbf{x}}{\min}</td>
+      <td> </td>
+      <td>A\mathbf{x} - \mathbf{b}</td>
+      <td> </td>
+      <td>_2^2 + \lambda</td>
+      <td> </td>
+      <td>\mathbf{x}</td>
+      <td> </td>
+      <td>_2^2$ is</td>
+    </tr>
+  </tbody>
+</table>
+
+\[x = (A^TA + \lambda I)^{-1}A^T\mathbf{b}.\]
+
+<p>In our reduced subspace with Hessenberg matrix of $H$ we get</p>
+
+\[y = (H^TH + \lambda I)^{-1} H^T||\mathbf{b}||\mathbf{e}_1.\]
+
+<table>
+  <tbody>
+    <tr>
+      <td>Further, squaring our given problem gives $</td>
+      <td> </td>
+      <td>A\mathbf{x}_\lambda^{(k)} - \mathbf{b}</td>
+      <td> </td>
+      <td>_2^2 = \tau^2\delta^2.$ Combining these yield</td>
+    </tr>
+  </tbody>
+</table>
+
+\[||H(H^TH+\lambda I)^{-1}H^Tb^\odot - b^\odot||_2^2 = \tau^2\delta^2. \qquad (1)\]
+
+<table>
+  <tbody>
+    <tr>
+      <td>Where $</td>
+      <td> </td>
+      <td>\mathbf{b}</td>
+      <td> </td>
+      <td>\mathbf{e}_1 = b^\odot$. Now, considering SVD of $H$, we have $H = U\Sigma V^T$. Therefore, $H^T = V\Sigma^T U^T$.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>So, in the inner bracket we have</p>
+
+\[H^TH + \lambda I = V\Sigma^T U^TU\Sigma^T V^T + \lambda I = VDV^T + \lambda I.\]
+
+<p>Where we let $D = \Sigma^T\Sigma$.</p>
+
+<hr>
+
+<p>Finally to calculate its inverse, we let $X = VDV^T + \lambda I$ and pre and post multiply it with $V^T$ and $V$ to get</p>
+
+\[V^TXV = D + \lambda V^TIV = D + \lambda V^TV = D + \lambda I\]
+
+<p>All while using the fact that for orthogonal matrices $V^TV = VV^T = I$. (Likewise for $U$.) Taking inverse on both sides gives</p>
+
+\[(V^TXV)^{-1} = V^{-1}X^{-1}{V^T}^{-1} = V^TX^{-1}V = (D+\lambda I)^{-1}.\]
+
+<p>Again, pre and post multiplying with $V$ and $V^T$ we finally get our desired result</p>
+
+\[X^{-1} = V(D+\lambda I)^{-1}V^T.\]
+
+<p>Plugging this back in $(1)$ with SVD of $H$ and $H^T$ we get</p>
+
+\[U\Sigma V^T \big(V(D+\lambda I)^{-1}V^T\big)V\Sigma^T U^T = U\Sigma(D+\lambda I)^{-1}\Sigma^T U^T.\]
+
+<p>Where all three matrices in the middle are diagonal matrices. Therefore, we have</p>
+
+\[||\left(I - U\Sigma(D+\lambda I)^{-1}\Sigma U^T\right)b^\odot||^2_2 = \tau^2\delta^2.\]
+
+<p>In addition, we note pulling out the orthogonal matrix of $U$ using invariance under the 2-norm further simplifies the above expression to</p>
+
+\[||(U^T - \Sigma(D+\lambda I)^{-1}\Sigma^TU^T)b^\odot||_2^2 = ||(I - \Sigma(D+\lambda I)^{-1}\Sigma^T) \hat{b}||_2^2\]
+
+<p>Where $\hat{b} = U^Tb^\odot$. Further, to observe terms of the product of the three matrices, we let $\sigma_i$ denote the diagonal elements (singular values) of $\Sigma$ of SVD of $H_{k+1,k}$.</p>
+
+<p>Since $\Sigma$ is $(k+1)\times k$, it constitutes an additional last row of all zeros while its transpose $\Sigma^T$ contains last column of all zeros. Nonetheless, we get the terms of $(D + \lambda I)^{-1}$ as</p>
+
+\[\frac{1}{\sigma_i^2 + \lambda}\]
+
+<p>where $D$ being $\Sigma^T\Sigma$ leads it to being a $k \times k$ matrix.</p>
+
+\[\begin{bmatrix}
+\sigma_1 &amp; 0 &amp; \cdots &amp; 0 \\
+0 &amp; \sigma_2 &amp; \cdots &amp; 0 \\
+\vdots &amp; \vdots &amp; \ddots &amp; \vdots \\
+0 &amp; 0 &amp; 0 &amp; \sigma_k \\
+0 &amp; 0 &amp; \cdots &amp; 0
+\end{bmatrix}
+\begin{bmatrix}
+\frac{1}{\sigma_1^2 + \lambda} &amp; 0 &amp; \cdots &amp; 0 \\
+0 &amp; \frac{1}{\sigma_2^2 + \lambda} &amp; \cdots &amp; \vdots \\
+\vdots &amp; \vdots &amp; \frac{1}{\sigma_3^2 + \lambda} &amp; 0 \\
+0 &amp; \ddots &amp; \cdots &amp; \frac{1}{\sigma_k^2 + \lambda}
+\end{bmatrix}
+\begin{bmatrix}
+\sigma_1 &amp; 0 &amp; \cdots &amp; 0 &amp; 0\\
+0 &amp; \sigma_2 &amp; \cdots &amp; 0 &amp; 0\\
+\vdots &amp; \vdots &amp; \ddots &amp; 0 &amp; 0\\
+0 &amp; 0 &amp; \cdots &amp; \sigma_k &amp; 0
+\end{bmatrix}\]
+
+<p>Multiplying these all out, we finally have an $(k+1) \times (k+1)$ matrix, such that the last row and last column constitute all zeros while the diagonal entries are $\frac{\sigma_i^2}{\sigma_i^2 + \lambda}$. Finally, with the identity matrix subtraction we get the diagonal elements as</p>
+
+\[1-\frac{\sigma_i^2}{\sigma_i^2 + \lambda} = \frac{\lambda}{\sigma_i^2 + \lambda}\]
+
+<p>with the $(k+1)^{\text{th}}$ diagonal entry as just $1$.</p>
+
+<p>Now, substituting $\lambda = \frac{1}{\alpha}$ here (for ease of computation) boils this to</p>
+
+\[\frac{1}{\alpha \sigma_i^2 + 1}.\]
+
+<p>Lastly, considering the $\hat{b}$ vector multiplied with this diagonal matrix, we get the norm square of the product as the following summation</p>
+
+\[\sum_{i=1}^k \left(\frac{\hat{b}_i}{\alpha\sigma_i^2 + 1}\right)^2 + \hat{b}_{k+1}^2.\]
+
+<p>Therefore,</p>
+
+\[f(\alpha) = \sum_{i=1}^k \left(\frac{\hat{b}_i}{\alpha\sigma_i^2 + 1}\right)^2 + \hat{b}_{k+1}^2 - \tau^2\delta^2.\]
+
+<p>Taking the derivative w.r.t $\alpha$ using the chain rule gives this as</p>
+
+\[f'(\alpha) = \sum_{i=1}^k \hat{b_i}^2 \cdot \frac{-2\sigma_i^2}{(\alpha\sigma_i^2+1)^3}.\]
+
+<p>With the last terms cancelling being constant. Now, applying Newton’s method for root finding to get a recursive formula for $\alpha$ to eventually converge we plug the above in the following</p>
+
+\[\alpha_{n+1} = \alpha_n - \frac{f(\alpha_n)}{f'(\alpha_n)}.\]
+
+  </article>
 </div>
 
     </div>

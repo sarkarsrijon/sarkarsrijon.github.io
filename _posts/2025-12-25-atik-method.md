@@ -40,7 +40,7 @@ Further, squaring our given problem gives $$||A\mathbf{x}\_\lambda^{(k)} - \math
 
 $$||H(H^TH+\lambda I)^{-1}H^Tb^\odot - b^\odot||\_2^2 = \tau^2\delta^2. \qquad (1)$$
 
-Where $$||\mathbf{b}|| \mathbf{e}\_1 = b^\odot$$. Now, considering SVD of $$H$$, we have $$H = U\Sigma V^T$$. Therefore, $$H^T = V\Sigma^T U^T$$. 
+Where $$||\mathbf{b}|| \mathbf{e}_1 = b^\odot$$. Now, considering SVD of $$H$$, we have $$H = U\Sigma V^T$$. Therefore, $$H^T = V\Sigma^T U^T$$. 
 
 So, in the inner bracket, we have
 

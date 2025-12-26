@@ -22,7 +22,7 @@ Incorporating (flexible) Arnoldi and using Newton's method to solve for $$\lambd
 
 ## Derivation
 
-First, we consider the subspace reduction to get $$||A\mathbf{x} - \mathbf{b}||\_2^2$$ reduced to $$|| H\mathbf{y} - V\_p^T\mathbf{b} ||\_2^2$$. Now, as we consider $$x=V\_p y$$, and $$V\_p$$ is orthogonal we get $$||\mathbf{x}||\_2^2 = ||V_p\mathbf{y}||\_2^2 = ||y||^2\_2$$. Leading our problem to be 
+First, we consider the subspace reduction to get $$||A\mathbf{x} - \mathbf{b}||\_2^2$$ reduced to $$||H\mathbf{y} - V\_p^T\mathbf{b} ||\_2^2$$. Now, as we consider $$x=V\_p y$$, and $$V\_p$$ is orthogonal we get $$||\mathbf{x}||\_2^2 = ||V_p\mathbf{y}||\_2^2 = ||y||^2\_2$$. Leading our problem to be 
 
 $$||H\mathbf{y} - ||\mathbf{b}||\mathbf{e}_1||_2^2 + \lambda ||\mathbf{y}||_2^2.$$
 

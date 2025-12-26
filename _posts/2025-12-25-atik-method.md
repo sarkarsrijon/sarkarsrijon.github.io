@@ -1,11 +1,11 @@
 ---
 layout: post
-title: a post with math
-date: 2015-10-20 11:12:00-0400
-description: an example of a blog post with some math
+title: Arnoldi Tikhonov
+date: 2025-12-25 20:56:00-0000
+description: derivation from summer 2024
 tags: formatting math
 categories: sample-posts
-related_posts: false
+related_posts: true
 ---
 
 # Arnoldi Tikhonov Method

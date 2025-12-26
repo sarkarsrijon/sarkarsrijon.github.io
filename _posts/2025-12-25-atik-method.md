@@ -22,25 +22,25 @@ Incorporating (flexible) Arnoldi and using Newton's method to solve for $$\lambd
 
 ## Derivation
 
-First, we consider the subspace reduction to get $$||A\mathbf{x} - \mathbf{b}||\_2^2$$ reduced to $$|| H\mathbf{y} - V\_p^T\mathbf{b} ||\_2^2$$. Now, as we consider $$x=V_p y$$, and $$V_p$$ is orthogonal we get $$||\mathbf{x}||_2^2 = ||V_p\mathbf{y}||_2^2 = ||y||^2_2$$. Leading our problem to be 
+First, we consider the subspace reduction to get $$||A\mathbf{x} - \mathbf{b}||\_2^2$$ reduced to $$|| H\mathbf{y} - V\_p^T\mathbf{b} ||\_2^2$$. Now, as we consider $$x=V\_p y$$, and $$V\_p$$ is orthogonal we get $$||\mathbf{x}||\_2^2 = ||V_p\mathbf{y}||\_2^2 = ||y||^2\_2$$. Leading our problem to be 
 
 $$||H\mathbf{y} - ||\mathbf{b}||\mathbf{e}_1||_2^2 + \lambda ||\mathbf{y}||_2^2.$$
 
 Where $$||\mathbf{b}||\mathbf{e}_1 = V_p^T \mathbf{b}$$.
 
-**Lemma:** Using the fact that closed form solution of $$\underset{\mathbf{x}}{\min}||A\mathbf{x} - \mathbf{b}||_2^2 + \lambda ||\mathbf{x}||_2^2$$ is 
+**Lemma:** Using the fact that closed form solution of $$\underset{\mathbf{x}}{\min}||A\mathbf{x} - \mathbf{b}||\_2^2 + \lambda ||\mathbf{x}||\_2^2$$ is 
 
 $$x = (A^TA + \lambda I)^{-1}A^T\mathbf{b}.$$
 
 In our reduced subspace with the Hessenberg matrix of $$H$$ we get 
 
-$$y = (H^TH + \lambda I)^{-1} H^T||\mathbf{b}||\mathbf{e}_1.$$
+$$y = (H^TH + \lambda I)^{-1} H^T||\mathbf{b}||\mathbf{e}\_1.$$
 
-Further, squaring our given problem gives $$||A\mathbf{x}_\lambda^{(k)} - \mathbf{b}||_2^2 = \tau^2\delta^2.$$ Combining these yield 
+Further, squaring our given problem gives $$||A\mathbf{x}\_\lambda^{(k)} - \mathbf{b}||\_2^2 = \tau^2\delta^2.$$ Combining these yield 
 
-$$||H(H^TH+\lambda I)^{-1}H^Tb^\odot - b^\odot||_2^2 = \tau^2\delta^2. \qquad (1)$$
+$$||H(H^TH+\lambda I)^{-1}H^Tb^\odot - b^\odot||\_2^2 = \tau^2\delta^2. \qquad (1)$$
 
-Where $$||\mathbf{b}|| \mathbf{e}_1 = b^\odot$$. Now, considering SVD of $$H$$, we have $$H = U\Sigma V^T$$. Therefore, $$H^T = V\Sigma^T U^T$$. 
+Where $$||\mathbf{b}|| \mathbf{e}\_1 = b^\odot$$. Now, considering SVD of $$H$$, we have $$H = U\Sigma V^T$$. Therefore, $$H^T = V\Sigma^T U^T$$. 
 
 So, in the inner bracket, we have
 
@@ -60,7 +60,7 @@ Again, right and left multiplying with $$V$$ and $$V^T$$, we finally get our des
 
 $$X^{-1} = V(D+\lambda I)^{-1}V^T.$$
 
-Plugging this back in $(1)$ with SVD of $$H$$ and $$H^T$$ we get 
+Plugging this back in $$(1)$$ with SVD of $$H$$ and $$H^T$$ we get 
 
 $$U\Sigma V^T \big(V(D+\lambda I)^{-1}V^T\big)V\Sigma^T U^T = U\Sigma(D+\lambda I)^{-1}\Sigma^T U^T.$$
 

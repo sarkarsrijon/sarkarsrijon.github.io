@@ -126,7 +126,7 @@
   </header>
 
   <article class="post-content">
-    <h1 id="arnoldi-tikhonov-lemma">Arnoldi Tikhonov Lemma</h1>
+    <h1 id="lemma">Lemma</h1>
 
 <p>In</p>
 
@@ -147,11 +147,11 @@
       <td> </td>
       <td>A\mathbf{x} - \mathbf{b}</td>
       <td> </td>
-      <td>_2^2 \(reduced to\)</td>
+      <td>_2^2\(reduced to\)</td>
       <td> </td>
       <td>H\mathbf{y} - V_p^T\mathbf{b}</td>
       <td> </td>
-      <td>_2^2 \(. Now, as we consider\) x=V_p y \(, and\) V_p \(is orthogonal we get\)</td>
+      <td>_2^2\(. Now, as we consider\)x=V_p y\(, and\)V_p\(is orthogonal we get\)</td>
       <td> </td>
       <td>\mathbf{x}</td>
       <td> </td>
@@ -163,7 +163,7 @@
       <td> </td>
       <td>y</td>
       <td> </td>
-      <td>^2_2 $$. Leading our problem to be</td>
+      <td>^2_2$$. Leading our problem to be</td>
     </tr>
   </tbody>
 </table>
@@ -177,7 +177,7 @@
       <td> </td>
       <td>\mathbf{b}</td>
       <td> </td>
-      <td>\mathbf{e}_1 = V_p^T \mathbf{b} $$.</td>
+      <td>\mathbf{e}_1 = V_p^T \mathbf{b}$$.</td>
     </tr>
   </tbody>
 </table>
@@ -186,7 +186,7 @@
   <tbody>
     <tr>
       <td>
-<strong>Lemma:</strong> Using the fact that closed form solution of $$ \underset{\mathbf{x}}{\min}</td>
+<strong>Lemma:</strong> Using the fact that closed form solution of $$\underset{\mathbf{x}}{\min}</td>
       <td> </td>
       <td>A\mathbf{x} - \mathbf{b}</td>
       <td> </td>
@@ -194,14 +194,14 @@
       <td> </td>
       <td>\mathbf{x}</td>
       <td> </td>
-      <td>_2^2 $$ is</td>
+      <td>_2^2$$ is</td>
     </tr>
   </tbody>
 </table>
 
 \[x = (A^TA + \lambda I)^{-1}A^T\mathbf{b}.\]
 
-<p>In our reduced subspace with Hessenberg matrix of \(H\) we get</p>
+<p>In our reduced subspace with the Hessenberg matrix of \(H\) we get</p>
 
 \[y = (H^TH + \lambda I)^{-1} H^T||\mathbf{b}||\mathbf{e}_1.\]
 
@@ -212,7 +212,7 @@
       <td> </td>
       <td>A\mathbf{x}_\lambda^{(k)} - \mathbf{b}</td>
       <td> </td>
-      <td>_2^2 = \tau^2\delta^2 $$. Combining these yield</td>
+      <td>_2^2 = \tau^2\delta^2.$$ Combining these yield</td>
     </tr>
   </tbody>
 </table>
@@ -226,12 +226,12 @@
       <td> </td>
       <td>\mathbf{b}</td>
       <td> </td>
-      <td>\mathbf{e}_1 = b^\odot \(. Now, considering SVD of\) H \(, we have\) H = U\Sigma V^T \(. Therefore,\) H^T = V\Sigma^T U^T $$.</td>
+      <td>\mathbf{e}_1 = b^\odot\(. Now, considering SVD of\)H\(, we have\)H = U\Sigma V^T\(. Therefore,\)H^T = V\Sigma^T U^T$$.</td>
     </tr>
   </tbody>
 </table>
 
-<p>So, in the inner bracket we have</p>
+<p>So, in the inner bracket, we have</p>
 
 \[H^TH + \lambda I = V\Sigma^T U^TU\Sigma^T V^T + \lambda I = VDV^T + \lambda I.\]
 
@@ -241,29 +241,29 @@
 
 \[V^TXV = D + \lambda V^TIV = D + \lambda V^TV = D + \lambda I\]
 
-<p>All while using the fact that for orthogonal matrices \(V^TV = VV^T = I\). (Likewise for \(U\).) Taking inverse on both sides gives</p>
+<p>All while using the fact that for orthogonal matrices \(V^TV = VV^T = I\). (Likewise for \(U\).) Taking the inverse on both sides gives</p>
 
 \[(V^TXV)^{-1} = V^{-1}X^{-1}{V^T}^{-1} = V^TX^{-1}V = (D+\lambda I)^{-1}.\]
 
-<p>Again, pre and post multiplying with \(V\) and \(V^T\) we finally get our desired result</p>
+<p>Again, right and left multiplying with \(V$ and\)V^T$$, we finally get our desired result</p>
 
 \[X^{-1} = V(D+\lambda I)^{-1}V^T.\]
 
-<p>Plugging this back in \((1)\) with SVD of \(H\) and \(H^T\) we get</p>
+<p>Plugging this back in $(1)$ with SVD of \(H\) and \(H^T\) we get</p>
 
 \[U\Sigma V^T \big(V(D+\lambda I)^{-1}V^T\big)V\Sigma^T U^T = U\Sigma(D+\lambda I)^{-1}\Sigma^T U^T.\]
 
-<p>Where all three matrices in the middle are diagonal matrices. Therefore, we have</p>
+<p>Where all three matrices in the middle are diagonal. Therefore, we have</p>
 
 \[||\left(I - U\Sigma(D+\lambda I)^{-1}\Sigma U^T\right)b^\odot||^2_2 = \tau^2\delta^2.\]
 
-<p>In addition, we note pulling out the orthogonal matrix of \(U\) using invariance under the 2-norm further simplifies the above expression to</p>
+<p>In addition, we note that pulling out the orthogonal matrix of \(U\) using invariance under the 2-norm further simplifies the above expression to</p>
 
 \[||(U^T - \Sigma(D+\lambda I)^{-1}\Sigma^TU^T)b^\odot||_2^2 = ||(I - \Sigma(D+\lambda I)^{-1}\Sigma^T) \hat{b}||_2^2\]
 
-<p>Where \(\hat{b} = U^Tb^\odot\). Further, to observe terms of the product of the three matrices, we let \(\sigma_i\) denote the diagonal elements (singular values) of \(\Sigma\) of SVD of \(H_{k+1,k}\).</p>
+<p>Where \(\hat{b} = U^Tb^\odot\). Further, to observe terms of the product of the three matrices, we let \(\sigma_i\) denote the diagonal elements (singular values) of \(\Sigma\) of the SVD of \(H_{k+1,k}\).</p>
 
-<p>Since \(\Sigma\) is \((k+1)\times k\), it constitutes an additional last row of all zeros while its transpose \(\Sigma^T\) contains last column of all zeros. Nonetheless, we get the terms of \((D + \lambda I)^{-1}\) as</p>
+<p>Since \(\Sigma\) is \((k+1)\times k\), it constitutes an additional last row of all zeros while its transpose \(\Sigma^T\) contains the last column of all zeros. Nonetheless, we get the terms of \((D + \lambda I)^{-1}\) as</p>
 
 \[\frac{1}{\sigma_i^2 + \lambda}\]
 
@@ -289,7 +289,7 @@
 0 &amp; 0 &amp; \cdots &amp; \sigma_k &amp; 0
 \end{bmatrix}\]
 
-<p>Multiplying these all out, we finally have an \((k+1) \times (k+1)\) matrix, such that the last row and last column constitute all zeros while the diagonal entries are \(\frac{\sigma_i^2}{\sigma_i^2 + \lambda}\). Finally, with the identity matrix subtraction we get the diagonal elements as</p>
+<p>Multiplying these all out, we finally have an \((k+1) \times (k+1)\) matrix, such that the last row and last column constitute all zeros while the diagonal entries are \(\frac{\sigma_i^2}{\sigma_i^2 + \lambda}\). Finally, with the identity matrix subtraction, we get the diagonal elements as</p>
 
 \[1-\frac{\sigma_i^2}{\sigma_i^2 + \lambda} = \frac{\lambda}{\sigma_i^2 + \lambda}\]
 
@@ -299,7 +299,7 @@
 
 \[\frac{1}{\alpha \sigma_i^2 + 1}.\]
 
-<p>Lastly, considering the \(\hat{b}\) vector multiplied with this diagonal matrix, we get the norm square of the product as the following summation</p>
+<p>Lastly, considering the \(\hat{b}\) vector multiplied by this diagonal matrix, we get the norm square of the product as the following summation</p>
 
 \[\sum_{i=1}^k \left(\frac{\hat{b}_i}{\alpha\sigma_i^2 + 1}\right)^2 + \hat{b}_{k+1}^2.\]
 

@@ -140,7 +140,7 @@
 
 <h2 id="derivation">Derivation</h2>
 
-<p>First, we consider the subspace reduction to get \(\|A\mathbf{x} - \mathbf{b}\|_2^2\) reduced to \(\|H\mathbf{y} - V\_p^T\mathbf{b}\|_2^2\). Now, as we consider \(x=V_p y\), and \(V_p\) is orthogonal we get \(\|\mathbf{x}\|_2^2 = \|V_p\mathbf{y}\|_2^2 = \|y\|^2_2\). Leading our problem to be</p>
+<p>First, we consider the subspace reduction to get \(\|A\mathbf{x} - \mathbf{b}\|_2^2\) reduced to \(\|H\mathbf{y} - V_p^T\mathbf{b}\|_2^2\). Now, as we consider \(x=V_p y\), and \(V_p\) is orthogonal we get \(\|\mathbf{x}\|_2^2 = \|V_p\mathbf{y}\|_2^2 = \|y\|^2_2\). Leading our problem to be</p>
 
 \[||H\mathbf{y} - ||\mathbf{b}||\mathbf{e}_1||_2^2 + \lambda ||\mathbf{y}||_2^2.\]
 
@@ -152,11 +152,11 @@
 
 <p>In our reduced subspace with the Hessenberg matrix of \(H\) we get</p>
 
-\[y = (H^TH + \lambda I)^{-1} H^T||\mathbf{b}||\mathbf{e}\_1.\]
+\[y = (H^TH + \lambda I)^{-1} H^T||\mathbf{b}||\mathbf{e}_1.\]
 
 <p>Further, squaring our given problem gives \(\|A\mathbf{x}_\lambda^{(k)} - \mathbf{b}\|_2^2 = \tau^2\delta^2.\) Combining these yield</p>
 
-\[||H(H^TH+\lambda I)^{-1}H^Tb^\odot - b^\odot||\_2^2 = \tau^2\delta^2. \qquad (1)\]
+\[||H(H^TH+\lambda I)^{-1}H^Tb^\odot - b^\odot||_2^2 = \tau^2\delta^2. \qquad (1)\]
 
 <p>Where \(\|\mathbf{b}\| \mathbf{e}_1 = b^\odot\). Now, considering SVD of \(H\), we have \(H = U\Sigma V^T\). Therefore, \(H^T = V\Sigma^T U^T\).</p>
 
@@ -245,48 +245,6 @@
 \[\alpha_{n+1} = \alpha_n - \frac{f(\alpha_n)}{f'(\alpha_n)}.\]
 
   </article>
-
-
-  
-    
-    <br>
-    <hr>
-    <br>
-    <ul class="list-disc pl-8"></ul>
-
-    <!-- Adds related posts to the end of an article -->
-    <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoy Reading This Article?</h2>
-    <p class="mb-2">Here are some more articles you might like to read next:</p>
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2022/displaying-external-posts-on-your-al-folio-blog/">Displaying External Posts on Your al-folio Blog</a>
-  </li>
-
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2022/giscus-comments/">a post with giscus comments</a>
-  </li>
-
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2022/redirect/">a post with redirect</a>
-  </li>
-
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2021/diagrams/">a post with diagrams</a>
-  </li>
-
-  
-
-  <li class="my-2">
-    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="/blog/2021/distill/">a distill-style blog post</a>
-  </li>
-
 </div>
 
     </div>

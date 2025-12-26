@@ -56,7 +56,7 @@ All while using the fact that for orthogonal matrices $$V^TV = VV^T = I$$. (Like
 
 $$(V^TXV)^{-1} = V^{-1}X^{-1}{V^T}^{-1} = V^TX^{-1}V = (D+\lambda I)^{-1}.$$
 
-Again, right and left multiplying with $$V$ and $$V^T$$, we finally get our desired result 
+Again, right and left multiplying with $$V$$ and $$V^T$$, we finally get our desired result 
 
 $$X^{-1} = V(D+\lambda I)^{-1}V^T.$$
 

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://sarkarsrijon.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://sarkarsrijon.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-12-26T04:02:37+00:00</updated><id>https://sarkarsrijon.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator><link href="https://sarkarsrijon.github.io/feed.xml" rel="self" type="application/atom+xml" /><link href="https://sarkarsrijon.github.io/" rel="alternate" type="text/html" hreflang="en" /><updated>2025-12-26T04:11:13+00:00</updated><id>https://sarkarsrijon.github.io/feed.xml</id><title type="html">blank</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 </subtitle><entry><title type="html">Tikhonov Regularization with Arnoldi and Newton’s Method</title><link href="https://sarkarsrijon.github.io/blog/2025/atik-method/" rel="alternate" type="text/html" title="Tikhonov Regularization with Arnoldi and Newton’s Method" /><published>2025-12-25T20:56:00+00:00</published><updated>2025-12-25T20:56:00+00:00</updated><id>https://sarkarsrijon.github.io/blog/2025/atik-method</id><content type="html" xml:base="https://sarkarsrijon.github.io/blog/2025/atik-method/"><![CDATA[<h1 id="lemma">Lemma</h1>
 
 <p>In</p>
@@ -13,63 +13,13 @@
 
 <h2 id="derivation">Derivation</h2>
 
-<table>
-  <tbody>
-    <tr>
-      <td>First, we consider the subspace reduction to get $$</td>
-      <td> </td>
-      <td>A\mathbf{x} - \mathbf{b}</td>
-      <td> </td>
-      <td>_2^2\(reduced to\)</td>
-      <td> </td>
-      <td>H\mathbf{y} - V_p^T\mathbf{b}</td>
-      <td> </td>
-      <td>_2^2\(. Now, as we consider\)x=V_p y\(, and\)V_p\(is orthogonal we get\)</td>
-      <td> </td>
-      <td>\mathbf{x}</td>
-      <td> </td>
-      <td>_2^2 =</td>
-      <td> </td>
-      <td>V_p\mathbf{y}</td>
-      <td> </td>
-      <td>_2^2 =</td>
-      <td> </td>
-      <td>y</td>
-      <td> </td>
-      <td>^2_2$$. Leading our problem to be</td>
-    </tr>
-  </tbody>
-</table>
+<p>First, we consider the subspace reduction to get \(\|A\mathbf{x} - \mathbf{b}\|_2^2\) reduced to \(\|H\mathbf{y} - V\_p^T\mathbf{b}\|_2^2\). Now, as we consider \(x=V_p y\), and \(V_p\) is orthogonal we get \(\|\mathbf{x}\|_2^2 = \|V_p\mathbf{y}\|_2^2 = \|y\|^2_2\). Leading our problem to be</p>
 
 \[||H\mathbf{y} - ||\mathbf{b}||\mathbf{e}_1||_2^2 + \lambda ||\mathbf{y}||_2^2.\]
 
-<table>
-  <tbody>
-    <tr>
-      <td>Where $$</td>
-      <td> </td>
-      <td>\mathbf{b}</td>
-      <td> </td>
-      <td>\mathbf{e}_1 = V_p^T \mathbf{b}$$.</td>
-    </tr>
-  </tbody>
-</table>
+<p>Where \(\|\mathbf{b}\|\mathbf{e}_1 = V_p^T \mathbf{b}\).</p>
 
-<table>
-  <tbody>
-    <tr>
-      <td><strong>Lemma:</strong> Using the fact that closed form solution of $$\underset{\mathbf{x}}{\min}</td>
-      <td> </td>
-      <td>A\mathbf{x} - \mathbf{b}</td>
-      <td> </td>
-      <td>_2^2 + \lambda</td>
-      <td> </td>
-      <td>\mathbf{x}</td>
-      <td> </td>
-      <td>_2^2$$ is</td>
-    </tr>
-  </tbody>
-</table>
+<p><strong>Lemma:</strong> Using the fact that closed form solution of \(\underset{\mathbf{x}}{\min}\|A\mathbf{x} - \mathbf{b}\|_2^2 + \lambda \|\mathbf{x}\|_2^2\) is</p>
 
 \[x = (A^TA + \lambda I)^{-1}A^T\mathbf{b}.\]
 
@@ -77,31 +27,11 @@
 
 \[y = (H^TH + \lambda I)^{-1} H^T||\mathbf{b}||\mathbf{e}\_1.\]
 
-<table>
-  <tbody>
-    <tr>
-      <td>Further, squaring our given problem gives $$</td>
-      <td> </td>
-      <td>A\mathbf{x}_\lambda^{(k)} - \mathbf{b}</td>
-      <td> </td>
-      <td>_2^2 = \tau^2\delta^2.$$ Combining these yield</td>
-    </tr>
-  </tbody>
-</table>
+<p>Further, squaring our given problem gives \(\|A\mathbf{x}_\lambda^{(k)} - \mathbf{b}\|_2^2 = \tau^2\delta^2.\) Combining these yield</p>
 
 \[||H(H^TH+\lambda I)^{-1}H^Tb^\odot - b^\odot||\_2^2 = \tau^2\delta^2. \qquad (1)\]
 
-<table>
-  <tbody>
-    <tr>
-      <td>Where $$</td>
-      <td> </td>
-      <td>\mathbf{b}</td>
-      <td> </td>
-      <td>\mathbf{e}_1 = b^\odot\(. Now, considering SVD of\)H\(, we have\)H = U\Sigma V^T\(. Therefore,\)H^T = V\Sigma^T U^T$$.</td>
-    </tr>
-  </tbody>
-</table>
+<p>Where \(\|\mathbf{b}\| \mathbf{e}_1 = b^\odot\). Now, considering SVD of \(H\), we have \(H = U\Sigma V^T\). Therefore, \(H^T = V\Sigma^T U^T\).</p>
 
 <p>So, in the inner bracket, we have</p>
 
@@ -210,7 +140,7 @@ sequenceDiagram
 </code></pre></div></div>
 
 <div class="jekyll-diagrams diagrams mermaid">
-  <svg id="mermaid-1766721759263" width="100%" xmlns="http://www.w3.org/2000/svg" height="100%" style="max-width:450px;" viewBox="-50 -10 450 231"><style>#mermaid-1766721759263 .label{font-family:trebuchet ms,verdana,arial;color:#333}#mermaid-1766721759263 .node circle,#mermaid-1766721759263 .node ellipse,#mermaid-1766721759263 .node polygon,#mermaid-1766721759263 .node rect{fill:#ececff;stroke:#9370db;stroke-width:1px}#mermaid-1766721759263 .node.clickable{cursor:pointer}#mermaid-1766721759263 .arrowheadPath{fill:#333}#mermaid-1766721759263 .edgePath .path{stroke:#333;stroke-width:1.5px}#mermaid-1766721759263 .edgeLabel{background-color:#e8e8e8}#mermaid-1766721759263 .cluster rect{fill:#ffffde!important;stroke:#aa3!important;stroke-width:1px!important}#mermaid-1766721759263 .cluster text{fill:#333}#mermaid-1766721759263 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:trebuchet ms,verdana,arial;font-size:12px;background:#ffffde;border:1px solid #aa3;border-radius:2px;pointer-events:none;z-index:100}#mermaid-1766721759263 .actor{stroke:#ccf;fill:#ececff}#mermaid-1766721759263 text.actor{fill:#000;stroke:none}#mermaid-1766721759263 .actor-line{stroke:grey}#mermaid-1766721759263 .messageLine0{marker-end:"url(#arrowhead)"}#mermaid-1766721759263 .messageLine0,#mermaid-1766721759263 .messageLine1{stroke-width:1.5;stroke-dasharray:"2 2";stroke:#333}#mermaid-1766721759263 #arrowhead{fill:#333}#mermaid-1766721759263 #crosshead path{fill:#333!important;stroke:#333!important}#mermaid-1766721759263 .messageText{fill:#333;stroke:none}#mermaid-1766721759263 .labelBox{stroke:#ccf;fill:#ececff}#mermaid-1766721759263 .labelText,#mermaid-1766721759263 .loopText{fill:#000;stroke:none}#mermaid-1766721759263 .loopLine{stroke-width:2;stroke-dasharray:"2 2";marker-end:"url(#arrowhead)";stroke:#ccf}#mermaid-1766721759263 .note{stroke:#aa3;fill:#fff5ad}#mermaid-1766721759263 .noteText{fill:#000;stroke:none;font-family:trebuchet ms,verdana,arial;font-size:14px}#mermaid-1766721759263 .section{stroke:none;opacity:.2}#mermaid-1766721759263 .section0{fill:rgba(102,102,255,.49)}#mermaid-1766721759263 .section2{fill:#fff400}#mermaid-1766721759263 .section1,#mermaid-1766721759263 .section3{fill:#fff;opacity:.2}#mermaid-1766721759263 .sectionTitle0,#mermaid-1766721759263 .sectionTitle1,#mermaid-1766721759263 .sectionTitle2,#mermaid-1766721759263 .sectionTitle3{fill:#333}#mermaid-1766721759263 .sectionTitle{text-anchor:start;font-size:11px;text-height:14px}#mermaid-1766721759263 .grid .tick{stroke:#d3d3d3;opacity:.3;shape-rendering:crispEdges}#mermaid-1766721759263 .grid path{stroke-width:0}#mermaid-1766721759263 .today{fill:none;stroke:red;stroke-width:2px}#mermaid-1766721759263 .task{stroke-width:2}#mermaid-1766721759263 .taskText{text-anchor:middle;font-size:11px}#mermaid-1766721759263 .taskTextOutsideRight{fill:#000;text-anchor:start;font-size:11px}#mermaid-1766721759263 .taskTextOutsideLeft{fill:#000;text-anchor:end;font-size:11px}#mermaid-1766721759263 .taskText0,#mermaid-1766721759263 .taskText1,#mermaid-1766721759263 .taskText2,#mermaid-1766721759263 .taskText3{fill:#fff}#mermaid-1766721759263 .task0,#mermaid-1766721759263 .task1,#mermaid-1766721759263 .task2,#mermaid-1766721759263 .task3{fill:#8a90dd;stroke:#534fbc}#mermaid-1766721759263 .taskTextOutside0,#mermaid-1766721759263 .taskTextOutside1,#mermaid-1766721759263 .taskTextOutside2,#mermaid-1766721759263 .taskTextOutside3{fill:#000}#mermaid-1766721759263 .active0,#mermaid-1766721759263 .active1,#mermaid-1766721759263 .active2,#mermaid-1766721759263 .active3{fill:#bfc7ff;stroke:#534fbc}#mermaid-1766721759263 .activeText0,#mermaid-1766721759263 .activeText1,#mermaid-1766721759263 .activeText2,#mermaid-1766721759263 .activeText3{fill:#000!important}#mermaid-1766721759263 .done0,#mermaid-1766721759263 .done1,#mermaid-1766721759263 .done2,#mermaid-1766721759263 .done3{stroke:grey;fill:#d3d3d3;stroke-width:2}#mermaid-1766721759263 .doneText0,#mermaid-1766721759263 .doneText1,#mermaid-1766721759263 .doneText2,#mermaid-1766721759263 .doneText3{fill:#000!important}#mermaid-1766721759263 .crit0,#mermaid-1766721759263 .crit1,#mermaid-1766721759263 .crit2,#mermaid-1766721759263 .crit3{stroke:#f88;fill:red;stroke-width:2}#mermaid-1766721759263 .activeCrit0,#mermaid-1766721759263 .activeCrit1,#mermaid-1766721759263 .activeCrit2,#mermaid-1766721759263 .activeCrit3{stroke:#f88;fill:#bfc7ff;stroke-width:2}#mermaid-1766721759263 .doneCrit0,#mermaid-1766721759263 .doneCrit1,#mermaid-1766721759263 .doneCrit2,#mermaid-1766721759263 .doneCrit3{stroke:#f88;fill:#d3d3d3;stroke-width:2;cursor:pointer;shape-rendering:crispEdges}#mermaid-1766721759263 .activeCritText0,#mermaid-1766721759263 .activeCritText1,#mermaid-1766721759263 .activeCritText2,#mermaid-1766721759263 .activeCritText3,#mermaid-1766721759263 .doneCritText0,#mermaid-1766721759263 .doneCritText1,#mermaid-1766721759263 .doneCritText2,#mermaid-1766721759263 .doneCritText3{fill:#000!important}#mermaid-1766721759263 .titleText{text-anchor:middle;font-size:18px;fill:#000}#mermaid-1766721759263 g.classGroup text{fill:#9370db;stroke:none;font-family:trebuchet ms,verdana,arial;font-size:10px}#mermaid-1766721759263 g.classGroup rect{fill:#ececff;stroke:#9370db}#mermaid-1766721759263 g.classGroup line{stroke:#9370db;stroke-width:1}#mermaid-1766721759263 .classLabel .box{stroke:none;stroke-width:0;fill:#ececff;opacity:.5}#mermaid-1766721759263 .classLabel .label{fill:#9370db;font-size:10px}#mermaid-1766721759263 .relation{stroke:#9370db;stroke-width:1;fill:none}#mermaid-1766721759263 #compositionEnd,#mermaid-1766721759263 #compositionStart{fill:#9370db;stroke:#9370db;stroke-width:1}#mermaid-1766721759263 #aggregationEnd,#mermaid-1766721759263 #aggregationStart{fill:#ececff;stroke:#9370db;stroke-width:1}#mermaid-1766721759263 #dependencyEnd,#mermaid-1766721759263 #dependencyStart,#mermaid-1766721759263 #extensionEnd,#mermaid-1766721759263 #extensionStart{fill:#9370db;stroke:#9370db;stroke-width:1}#mermaid-1766721759263 .branch-label,#mermaid-1766721759263 .commit-id,#mermaid-1766721759263 .commit-msg{fill:#d3d3d3;color:#d3d3d3}</style><style>#mermaid-1766721759263 {
+  <svg id="mermaid-1766722275791" width="100%" xmlns="http://www.w3.org/2000/svg" height="100%" style="max-width:450px;" viewBox="-50 -10 450 231"><style>#mermaid-1766722275791 .label{font-family:trebuchet ms,verdana,arial;color:#333}#mermaid-1766722275791 .node circle,#mermaid-1766722275791 .node ellipse,#mermaid-1766722275791 .node polygon,#mermaid-1766722275791 .node rect{fill:#ececff;stroke:#9370db;stroke-width:1px}#mermaid-1766722275791 .node.clickable{cursor:pointer}#mermaid-1766722275791 .arrowheadPath{fill:#333}#mermaid-1766722275791 .edgePath .path{stroke:#333;stroke-width:1.5px}#mermaid-1766722275791 .edgeLabel{background-color:#e8e8e8}#mermaid-1766722275791 .cluster rect{fill:#ffffde!important;stroke:#aa3!important;stroke-width:1px!important}#mermaid-1766722275791 .cluster text{fill:#333}#mermaid-1766722275791 div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:trebuchet ms,verdana,arial;font-size:12px;background:#ffffde;border:1px solid #aa3;border-radius:2px;pointer-events:none;z-index:100}#mermaid-1766722275791 .actor{stroke:#ccf;fill:#ececff}#mermaid-1766722275791 text.actor{fill:#000;stroke:none}#mermaid-1766722275791 .actor-line{stroke:grey}#mermaid-1766722275791 .messageLine0{marker-end:"url(#arrowhead)"}#mermaid-1766722275791 .messageLine0,#mermaid-1766722275791 .messageLine1{stroke-width:1.5;stroke-dasharray:"2 2";stroke:#333}#mermaid-1766722275791 #arrowhead{fill:#333}#mermaid-1766722275791 #crosshead path{fill:#333!important;stroke:#333!important}#mermaid-1766722275791 .messageText{fill:#333;stroke:none}#mermaid-1766722275791 .labelBox{stroke:#ccf;fill:#ececff}#mermaid-1766722275791 .labelText,#mermaid-1766722275791 .loopText{fill:#000;stroke:none}#mermaid-1766722275791 .loopLine{stroke-width:2;stroke-dasharray:"2 2";marker-end:"url(#arrowhead)";stroke:#ccf}#mermaid-1766722275791 .note{stroke:#aa3;fill:#fff5ad}#mermaid-1766722275791 .noteText{fill:#000;stroke:none;font-family:trebuchet ms,verdana,arial;font-size:14px}#mermaid-1766722275791 .section{stroke:none;opacity:.2}#mermaid-1766722275791 .section0{fill:rgba(102,102,255,.49)}#mermaid-1766722275791 .section2{fill:#fff400}#mermaid-1766722275791 .section1,#mermaid-1766722275791 .section3{fill:#fff;opacity:.2}#mermaid-1766722275791 .sectionTitle0,#mermaid-1766722275791 .sectionTitle1,#mermaid-1766722275791 .sectionTitle2,#mermaid-1766722275791 .sectionTitle3{fill:#333}#mermaid-1766722275791 .sectionTitle{text-anchor:start;font-size:11px;text-height:14px}#mermaid-1766722275791 .grid .tick{stroke:#d3d3d3;opacity:.3;shape-rendering:crispEdges}#mermaid-1766722275791 .grid path{stroke-width:0}#mermaid-1766722275791 .today{fill:none;stroke:red;stroke-width:2px}#mermaid-1766722275791 .task{stroke-width:2}#mermaid-1766722275791 .taskText{text-anchor:middle;font-size:11px}#mermaid-1766722275791 .taskTextOutsideRight{fill:#000;text-anchor:start;font-size:11px}#mermaid-1766722275791 .taskTextOutsideLeft{fill:#000;text-anchor:end;font-size:11px}#mermaid-1766722275791 .taskText0,#mermaid-1766722275791 .taskText1,#mermaid-1766722275791 .taskText2,#mermaid-1766722275791 .taskText3{fill:#fff}#mermaid-1766722275791 .task0,#mermaid-1766722275791 .task1,#mermaid-1766722275791 .task2,#mermaid-1766722275791 .task3{fill:#8a90dd;stroke:#534fbc}#mermaid-1766722275791 .taskTextOutside0,#mermaid-1766722275791 .taskTextOutside1,#mermaid-1766722275791 .taskTextOutside2,#mermaid-1766722275791 .taskTextOutside3{fill:#000}#mermaid-1766722275791 .active0,#mermaid-1766722275791 .active1,#mermaid-1766722275791 .active2,#mermaid-1766722275791 .active3{fill:#bfc7ff;stroke:#534fbc}#mermaid-1766722275791 .activeText0,#mermaid-1766722275791 .activeText1,#mermaid-1766722275791 .activeText2,#mermaid-1766722275791 .activeText3{fill:#000!important}#mermaid-1766722275791 .done0,#mermaid-1766722275791 .done1,#mermaid-1766722275791 .done2,#mermaid-1766722275791 .done3{stroke:grey;fill:#d3d3d3;stroke-width:2}#mermaid-1766722275791 .doneText0,#mermaid-1766722275791 .doneText1,#mermaid-1766722275791 .doneText2,#mermaid-1766722275791 .doneText3{fill:#000!important}#mermaid-1766722275791 .crit0,#mermaid-1766722275791 .crit1,#mermaid-1766722275791 .crit2,#mermaid-1766722275791 .crit3{stroke:#f88;fill:red;stroke-width:2}#mermaid-1766722275791 .activeCrit0,#mermaid-1766722275791 .activeCrit1,#mermaid-1766722275791 .activeCrit2,#mermaid-1766722275791 .activeCrit3{stroke:#f88;fill:#bfc7ff;stroke-width:2}#mermaid-1766722275791 .doneCrit0,#mermaid-1766722275791 .doneCrit1,#mermaid-1766722275791 .doneCrit2,#mermaid-1766722275791 .doneCrit3{stroke:#f88;fill:#d3d3d3;stroke-width:2;cursor:pointer;shape-rendering:crispEdges}#mermaid-1766722275791 .activeCritText0,#mermaid-1766722275791 .activeCritText1,#mermaid-1766722275791 .activeCritText2,#mermaid-1766722275791 .activeCritText3,#mermaid-1766722275791 .doneCritText0,#mermaid-1766722275791 .doneCritText1,#mermaid-1766722275791 .doneCritText2,#mermaid-1766722275791 .doneCritText3{fill:#000!important}#mermaid-1766722275791 .titleText{text-anchor:middle;font-size:18px;fill:#000}#mermaid-1766722275791 g.classGroup text{fill:#9370db;stroke:none;font-family:trebuchet ms,verdana,arial;font-size:10px}#mermaid-1766722275791 g.classGroup rect{fill:#ececff;stroke:#9370db}#mermaid-1766722275791 g.classGroup line{stroke:#9370db;stroke-width:1}#mermaid-1766722275791 .classLabel .box{stroke:none;stroke-width:0;fill:#ececff;opacity:.5}#mermaid-1766722275791 .classLabel .label{fill:#9370db;font-size:10px}#mermaid-1766722275791 .relation{stroke:#9370db;stroke-width:1;fill:none}#mermaid-1766722275791 #compositionEnd,#mermaid-1766722275791 #compositionStart{fill:#9370db;stroke:#9370db;stroke-width:1}#mermaid-1766722275791 #aggregationEnd,#mermaid-1766722275791 #aggregationStart{fill:#ececff;stroke:#9370db;stroke-width:1}#mermaid-1766722275791 #dependencyEnd,#mermaid-1766722275791 #dependencyStart,#mermaid-1766722275791 #extensionEnd,#mermaid-1766722275791 #extensionStart{fill:#9370db;stroke:#9370db;stroke-width:1}#mermaid-1766722275791 .branch-label,#mermaid-1766722275791 .commit-id,#mermaid-1766722275791 .commit-msg{fill:#d3d3d3;color:#d3d3d3}</style><style>#mermaid-1766722275791 {
     color: rgb(0, 0, 0);
     font: normal normal 400 normal 16px / normal "Times New Roman";
   }</style><g></g><g><line id="actor0" x1="75" y1="5" x2="75" y2="220" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="0" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="75" dy="0">John</tspan></text></g><g><line id="actor1" x1="275" y1="5" x2="275" y2="220" class="actor-line" stroke-width="0.5px" stroke="#999"></line><rect x="200" y="0" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="32.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="275" dy="0">Alice</tspan></text></g><defs><marker id="arrowhead" refX="5" refY="2" markerWidth="6" markerHeight="4" orient="auto"><path d="M 0,0 V 4 L6,2 Z"></path></marker></defs><defs><marker id="crosshead" markerWidth="15" markerHeight="8" orient="auto" refX="16" refY="4"><path fill="black" stroke="#000000" stroke-width="1px" d="M 9,2 V 6 L16,4 Z" style="stroke-dasharray: 0, 0;"></path><path fill="none" stroke="#000000" stroke-width="1px" d="M 0,1 L 6,7 M 6,1 L 0,7" style="stroke-dasharray: 0, 0;"></path></marker></defs><g><text x="175" y="93" class="messageText" style="text-anchor: middle;">Hello John, how are you?</text><line x1="275" y1="100" x2="75" y2="100" class="messageLine0" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="fill: none;"></line></g><g><text x="175" y="128" class="messageText" style="text-anchor: middle;">Great!</text><line x1="75" y1="135" x2="275" y2="135" class="messageLine1" stroke-width="2" stroke="black" marker-end="url(#arrowhead)" style="stroke-dasharray: 3, 3; fill: none;"></line></g><g><rect x="0" y="155" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="75" y="187.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="75" dy="0">John</tspan></text></g><g><rect x="200" y="155" fill="#eaeaea" stroke="#666" width="150" height="65" rx="3" ry="3" class="actor"></rect><text x="275" y="187.5" dominant-baseline="central" alignment-baseline="central" class="actor" style="text-anchor: middle;"><tspan x="275" dy="0">Alice</tspan></text></g></svg>

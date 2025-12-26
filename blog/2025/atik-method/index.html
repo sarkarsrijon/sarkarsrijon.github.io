@@ -140,64 +140,13 @@
 
 <h2 id="derivation">Derivation</h2>
 
-<table>
-  <tbody>
-    <tr>
-      <td>First, we consider the subspace reduction to get $$</td>
-      <td> </td>
-      <td>A\mathbf{x} - \mathbf{b}</td>
-      <td> </td>
-      <td>_2^2\(reduced to\)</td>
-      <td> </td>
-      <td>H\mathbf{y} - V_p^T\mathbf{b}</td>
-      <td> </td>
-      <td>_2^2\(. Now, as we consider\)x=V_p y\(, and\)V_p\(is orthogonal we get\)</td>
-      <td> </td>
-      <td>\mathbf{x}</td>
-      <td> </td>
-      <td>_2^2 =</td>
-      <td> </td>
-      <td>V_p\mathbf{y}</td>
-      <td> </td>
-      <td>_2^2 =</td>
-      <td> </td>
-      <td>y</td>
-      <td> </td>
-      <td>^2_2$$. Leading our problem to be</td>
-    </tr>
-  </tbody>
-</table>
+<p>First, we consider the subspace reduction to get \(\|A\mathbf{x} - \mathbf{b}\|_2^2\) reduced to \(\|H\mathbf{y} - V\_p^T\mathbf{b}\|_2^2\). Now, as we consider \(x=V_p y\), and \(V_p\) is orthogonal we get \(\|\mathbf{x}\|_2^2 = \|V_p\mathbf{y}\|_2^2 = \|y\|^2_2\). Leading our problem to be</p>
 
 \[||H\mathbf{y} - ||\mathbf{b}||\mathbf{e}_1||_2^2 + \lambda ||\mathbf{y}||_2^2.\]
 
-<table>
-  <tbody>
-    <tr>
-      <td>Where $$</td>
-      <td> </td>
-      <td>\mathbf{b}</td>
-      <td> </td>
-      <td>\mathbf{e}_1 = V_p^T \mathbf{b}$$.</td>
-    </tr>
-  </tbody>
-</table>
+<p>Where \(\|\mathbf{b}\|\mathbf{e}_1 = V_p^T \mathbf{b}\).</p>
 
-<table>
-  <tbody>
-    <tr>
-      <td>
-<strong>Lemma:</strong> Using the fact that closed form solution of $$\underset{\mathbf{x}}{\min}</td>
-      <td> </td>
-      <td>A\mathbf{x} - \mathbf{b}</td>
-      <td> </td>
-      <td>_2^2 + \lambda</td>
-      <td> </td>
-      <td>\mathbf{x}</td>
-      <td> </td>
-      <td>_2^2$$ is</td>
-    </tr>
-  </tbody>
-</table>
+<p><strong>Lemma:</strong> Using the fact that closed form solution of \(\underset{\mathbf{x}}{\min}\|A\mathbf{x} - \mathbf{b}\|_2^2 + \lambda \|\mathbf{x}\|_2^2\) is</p>
 
 \[x = (A^TA + \lambda I)^{-1}A^T\mathbf{b}.\]
 
@@ -205,31 +154,11 @@
 
 \[y = (H^TH + \lambda I)^{-1} H^T||\mathbf{b}||\mathbf{e}\_1.\]
 
-<table>
-  <tbody>
-    <tr>
-      <td>Further, squaring our given problem gives $$</td>
-      <td> </td>
-      <td>A\mathbf{x}_\lambda^{(k)} - \mathbf{b}</td>
-      <td> </td>
-      <td>_2^2 = \tau^2\delta^2.$$ Combining these yield</td>
-    </tr>
-  </tbody>
-</table>
+<p>Further, squaring our given problem gives \(\|A\mathbf{x}_\lambda^{(k)} - \mathbf{b}\|_2^2 = \tau^2\delta^2.\) Combining these yield</p>
 
 \[||H(H^TH+\lambda I)^{-1}H^Tb^\odot - b^\odot||\_2^2 = \tau^2\delta^2. \qquad (1)\]
 
-<table>
-  <tbody>
-    <tr>
-      <td>Where $$</td>
-      <td> </td>
-      <td>\mathbf{b}</td>
-      <td> </td>
-      <td>\mathbf{e}_1 = b^\odot\(. Now, considering SVD of\)H\(, we have\)H = U\Sigma V^T\(. Therefore,\)H^T = V\Sigma^T U^T$$.</td>
-    </tr>
-  </tbody>
-</table>
+<p>Where \(\|\mathbf{b}\| \mathbf{e}_1 = b^\odot\). Now, considering SVD of \(H\), we have \(H = U\Sigma V^T\). Therefore, \(H^T = V\Sigma^T U^T\).</p>
 
 <p>So, in the inner bracket, we have</p>
 

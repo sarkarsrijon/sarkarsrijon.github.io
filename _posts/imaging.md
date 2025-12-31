@@ -1,3 +1,13 @@
+---
+layout: post
+title: The Imaging Revolution in Biology and Medicine
+date: 2025-12-30 14:30:00-0000
+description: A central modality with lessons from the past three years
+tags: investing-thesis
+categories: sample-posts
+related_posts: false
+---
+
 # The Imaging Revolution in Biology and Medicine
 
 ## 1. Why Imaging is Becoming Central

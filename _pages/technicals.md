@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /https://sarkarsrijon.github.io/blog/2025/
+permalink: /blog/2025/
 title: technicals
 description: 
 nav_order: 9

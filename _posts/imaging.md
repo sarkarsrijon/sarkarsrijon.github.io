@@ -1,0 +1,117 @@
+# The Imaging Revolution in Biology and Medicine
+
+## 1. Why Imaging is Becoming Central
+
+**Abstract:** Outside school, over both past summers, I pursued numerical math and computational biology research, where I developed regularized inverse solvers for ill-posed problems and a deep CNN for brain tumor subtype classification, respectively, at Emory College and Mayo Clinic. The commonality between the two was focused on imaging modalities, where the former involved deblurring CT scans and the latter classifying multiparametric MRI. Alongside these, I would also perform protein design & structural biology research at Winship Cancer Institute, which led me to understand the imaging modality of Cryo-EM too. Hence, this piece entails a flavor of personal interest and motivation. For the same reason, I'm lately pushing myself to consider my PhD interest in a flavor of engineering and computational math that I have always wanted to blend together; as I fathom, imaging comes in all spheres, from patterns in biology to signals in robotics.
+
+### Imaging as a Primary Data Modality
+
+Imaging has turned into a primary data modality, instead of a mere diagnostic readout:
+
+- **In biology:** High-throughput spatial and live-cell imaging maps showcase where things are and how they behave, not just what's there.
+- **In structural biology:** Cryo-EM, biophysical measurements, and simulation transform proteins into continuous 3D ensembles, rather than static structures.
+- **In medicine, radiology, and pathology:** Imaging is becoming pixel-level phenotypes for AI, tightly tied to genomics and clinical outcomes.
+- **In new environments (space, microgravity):** Imaging is often the only pragmatic way to observe processes as they unravel.
+
+---
+
+## 2. Current Landscape: Key Company Archetypes
+
+### 2.1 Noetik (DCVC, etc.)
+
+Noetik is a great example of the new generation of imaging-centric biotech companies:
+
+- Uses self-supervised ML and high-throughput spatial biology to map tumor biology and discover immunotherapy targets in the TME
+- Generates hundreds of terabytes of genomic, transcriptomic, and proteomic data from cells and tissues, explicitly to feed transformer-based models [[1]](#references)
+- Built **OCTO-VirtualCell**, a foundation model capturing cell and tissue behavior, and **Perturb-map**, a high-throughput in vivo perturbation system unveiling oncological targets [[2]](#references)
+- Raised a **$40M Series A** led by Polaris, with participation from Khosla, Wittington, Breakout, and DCVC [[3]](#references), to advance precision oncology using these multimodal, high-dimensional datasets
+
+### 2.2 Peptone (Bessemer, etc.)
+
+Peptone arrives from an angle of structural biology and biophysical chemistry into the imaging realm:
+
+- Focuses on **intrinsically disordered proteins (IDPs)**, highly flexible, structurally heterogeneous proteins that are often undruggable by classical structure-based methods or indeterministic by SOTA platforms, including AlphaFold
+- Their tech combines tailored mass spectrometry, physics-informed ML, and specialized labs to model disordered proteins and identify invisible (hidden) small-molecule pockets in the conformation [[4]](#references)
+- Bessemer, in its Series A investment thesis, framed this as bringing order to disordered proteins via machine learning, repositioning IDPs as druggable
+- Raised a **$40M Series A** led by F-Prime and Bessemer [[5]](#references) to build an advanced facility for solving complex IDP structures at scale
+
+### 2.3 CZ Biohubs
+
+Institutions like Chan Zuckerberg have pushed imaging incredibly by:
+
+- Massive investments in light-sheet microscopy [[6]](#references) extending to LLSM, adaptive optics, and custom scopes
+- Large programs to map cellular and tissue atlases via imaging and genomics
+- A strong emphasis on **open tools**: hardware designs, software, and datasets
+- Creating new modalities and benchmark datasets for other methods
+
+*Similar roles are played by teams at the Allen Institute for Brain Science and Integrative Imaging at Janelia.*
+
+### 2.4 InkSpace Imaging
+
+InkSpace Imaging is developing lightweight, portable MRI systems:
+
+- Utilize advanced metamaterials, flexible RF coils, low-field MRI physics, and patient-centric design
+- By replacing massive superconducting magnets, they enable portability
+- Deployable in non-hospital settings and usable for pediatric and claustrophobic patients presents a huge market
+- Potentiating compatibility with bedside or emergency environments, representing an infrastructure and hardware switch
+
+### 2.5 Radiology and Clinical Imaging – AI and Beyond
+
+In clinical care, we're seeing:
+
+- **Radiology AI** (e.g., in stroke, pulmonary embolism, oncology) turning images into structured risk scores, triage signals, and quantitative biomarkers
+- **Pathology imaging** (whole-slide scanners) becoming more common and feeding ML for grading, subtyping, and prognosis
+- **Functional imaging** (e.g., cardiac CT/FFR, perfusion imaging) being used for computationally derived metrics and inverse problems
+
+---
+
+## 3. Gaps, Opportunities, and Emphasis
+
+Areas where further potential could be tapped, not yet industrialized.
+
+### 3.1 Early In-Space Imaging/Microgravity Phenotyping
+
+- Imaging of crystals, cells, tissues, and materials in low-Earth orbit [[7]](#references)
+- Still mostly research-oriented or pilot-commercial rather than scaled business lines
+- Coupled tightly to biomanufacturing
+
+### 3.2 Multimodal Integration is Still Nascent
+
+Despite a variety of imaging platforms and versatile omics & clinical data, seamless fusion of imaging + genomics + transcriptomics + proteomics + EHR at the individual-patient level is nonexistent.
+
+Key challenges:
+- Lack of robust end-to-end tooling to go from raw images → features → multimodal joint models → decisions
+- Need for tools for registering and analyzing time-series imaging data across years to preserve longitudinal or dynamical modalities for disease trajectories in vivo
+
+### 3.3 Imaging-Native Trial Infrastructure
+
+Clinical trials still underuse imaging:
+
+- Imaging endpoints are often manually measured, inconsistently, and radiological & pathological images are at times siloed from biomarker and clinical data
+- Few clinical trials are designed with AI-readable imaging endpoints from the ground up
+
+**Opportunity:** CRO/CDMO-like organizations that design and run imaging-intensive trials, roping standardized acquisition protocols, automated feature extraction, and holistic integration with molecular and clinical endpoints. This would be highly valuable in oncology, cardiology, neurology, and inflammatory diseases.
+
+---
+
+## Conclusion
+
+We see a powerful convergent thesis that **whoever controls the imaging stacks, hardware, acquisition, annotations, and models would control one of the most powerful representations in bio, health, and pharma.**
+
+**VC firms heavily active here include:** DCVC, Bessemer (e.g., in digital health and AI diagnostics), a16z, General Catalyst, Khosla, Insight, etc.
+
+---
+
+## References
+
+1. [Noetik Raises $14 Million Seed Financing to Revolutionize Cancer Immunotherapy Using Artificial Intelligence](https://www.noetik.bio/news/seed-financing)
+2. [Noetik Presents Multimodal Discovery Engines at AACR 2025: OCTO-virtual cell and Perturb-map](https://www.noetik.bio/news/aacr-2025)
+3. [DCVC | DCVC Leads $14 Million Seed Round for Noetik](https://www.dcvc.com/noetik)
+4. [Technology - Peptone | The Intrinsically Disordered Proteins Company](https://www.peptone.bio/technology)
+5. [Companies - Bessemer Venture Partners](https://www.bvp.com/companies)
+6. [CZ Biohub-built 'DaXi' microscope advances light-sheet imaging](https://www.czbiohub.org/daxi-microscope)
+7. [Boosters and Biologics: Is Space-Based Biomanufacturing Real? - LifeSciVC](https://lifescivc.com/space-biomanufacturing)
+
+---
+
+*Last updated: December 2025*

@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blog/2025/
+permalink: /blog/tag/investing-thesis/
 title: technicals
 description: 
 nav_order: 9

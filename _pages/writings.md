@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /blog/tag/investing-thesis/
-title: technicals
+title: writings
 description: 
 nav_order: 9
 nav: true

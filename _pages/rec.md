@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /recommendations/
-title: recommendations
+permalink: /recs/
+title: recs
 description: 
 nav_order: 6
 nav: true

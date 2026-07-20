@@ -20,4 +20,4 @@ Originally from Kolkata, India, I started at Emory University in the fall of 202
 
 Previously, I did math olympiads in India, and [this](https://srijonsarkar.wordpress.com) was my old blog about them. I took a gap year before undergrad and traveled to explore my interests. I'm grateful to be a part of [various communities](https://sarkarsrijon.github.io/projects/) since then. I'm also pretty eager about startups & ventures, and thus, my interest in [them](https://sarkarsrijon.github.io/blog/tag/investing-thesis/). 
 
-Lastly, I very much appreciate gymming, constrained writing, climbing trees, sugar feasting (beli logging!), trail hikes, and reading & watching biographical pieces.
+Lastly, I very much appreciate gymming, constrained writing, climbing trees, sugar feasting (beli logging!), trail hikes, and biographical pieces.
